@@ -1,0 +1,32 @@
+<view>
+
+  <van-cell title='商品名称' border='{{false}}'></van-cell>
+  <van-cell title='商品评价' border='{{false}}' ></van-cell>
+  <van-cell border='{{false}}' >
+    <van-rate slot='title' value="3"
+    size="{{ 25 }}"
+    count="{{ 5}}"
+    void-color="#ceefe8"
+    bind:change="onChange"></van-rate>
+  </van-cell>
+
+  
+
+
+
+  <van-cell title='服务评价' border='{{false}}'></van-cell>
+
+  <van-cell border='{{false}}' >
+    <van-rate slot='title' value="3"
+    size="{{ 25 }}"
+    count="{{ 5}}"
+    void-color="#ceefe8"
+    bind:change="onChange"></van-rate>
+  </van-cell>
+
+
+  <van-cell-group custom-class='message_box'>
+    <textarea class='message_input'  placeholder-class='message-placeholder' placeholder='请输入留言' maxlength='300' ></textarea>
+  </van-cell-group>
+
+</view>

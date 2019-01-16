@@ -1,0 +1,9 @@
+
+<van-cell-group>
+  <van-cell is-link >
+    <!-- <image src='' ></image> -->
+    <text >越秀星汇尚城</text>
+    <text >张三</text>
+
+  </van-cell>  
+</van-cell-group>

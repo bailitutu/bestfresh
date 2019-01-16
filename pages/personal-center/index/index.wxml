@@ -1,0 +1,55 @@
+<van-cell-group></van-cell-group>
+
+<van-cell-group custom-class='mt-20'>
+  <van-cell title='我的订单'  value='查看全部' is-link ></van-cell>
+  <van-row class="grid_item">
+
+    <van-col span="8">
+      <view class="grid_cell">
+          span: 8
+      </view>
+    </van-col>
+
+    <van-col span="8" >
+     <view class="grid_cell">
+          span: 8
+      </view>
+    </van-col>
+
+    <van-col span="8" >
+      <view class="grid_cell">
+            span: 8
+      </view>
+    </van-col>
+
+  </van-row>
+
+</van-cell-group>
+
+
+
+<van-cell-group custom-class='mt-20' style="margin-top:40rpx;">
+
+  <van-cell title="商品管理" is-link />
+  <van-cell title="申请站长" is-link />
+  <van-cell title="关于我们" is-link />
+</van-cell-group>
+
+<van-tabbar
+  active="{{ active }}"
+  active-color="#07c160"
+  bind:change="onChange"
+>
+  <van-tabbar-item icon="home-o">首页</van-tabbar-item>
+  <van-tabbar-item icon="search">活动</van-tabbar-item>
+  <van-tabbar-item icon="friends-o">购物车</van-tabbar-item>
+  <van-tabbar-item icon="setting-o">我的</van-tabbar-item>
+</van-tabbar>
+
+
+
+
+
+
+
+

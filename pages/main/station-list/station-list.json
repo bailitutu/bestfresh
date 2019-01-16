@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "navigationBarTitleText": "站点",
+  "usingComponents": {
+      "van-cell" :"/dist/cell/index",
+      "van-cell-group" :"/dist/cell-group/index"
+  }
+}

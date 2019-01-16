@@ -1,0 +1,38 @@
+
+<van-card
+  num="2"
+  price="2.00"
+  desc="描述信息"
+  title="商品标题"
+  thumb="{{ imageURL }}"
+/>
+
+<van-card
+  num="2"
+  price="2.00"
+  desc="描述信息"
+  title="商品标题"
+  thumb="{{ imageURL }}"
+/>
+
+
+
+<van-cell  >
+  <text>共计6件商品   </text>
+  <text>合计:<text>￥343.00</text></text>
+</van-cell>
+<van-cell title='配送方式' value='自提' />
+<van-cell title='站长姓名' value='张三' />
+<van-cell title='联系方式' value='187154564654' />
+<van-cell title='取货地址' label='浙江省杭州市是打发打发发送到发大水发发发浙江省杭州市是打发打发发送到发大水发发发' />
+
+
+<van-submit-bar
+custom-class='border_top'
+  price="{{ 3050 }}"
+  button-text="提交订单"
+  bind:submit="onClickButton"
+>
+</van-submit-bar>
+
+

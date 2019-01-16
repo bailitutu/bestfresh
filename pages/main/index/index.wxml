@@ -1,0 +1,59 @@
+<view>
+
+    <van-cell-group>
+      <van-cell  >
+        <view slot='title'>
+          <view>发了速度快发士大夫</view>
+          <view>发了速度快发士大夫</view>
+        </view>
+
+        <van-button size="mini">切换</van-button>
+      
+      </van-cell>
+    
+    </van-cell-group>
+
+    <view class='top-banner'>
+      <swiper  circular='true' indicator-dots='true' autoplay='true' indicator-color="#65C0C7"  indicator-active-color="#1D99A3">
+        <block>
+          <swiper-item   catchtap='bannerHandle' >
+            <view class='slide-image' style='height:300rpx;background:orange'></view>
+            <!-- <image  src="" class="slide-image" />           -->
+          </swiper-item>
+          <swiper-item   catchtap='bannerHandle' >
+            <view class='slide-image' style='height:300rpx;background:red'></view>
+            <!-- <image  src="" class="slide-image" />           -->
+          </swiper-item>
+        </block>
+      </swiper>
+    </view> 
+
+
+
+<van-notice-bar
+  left-icon="volume-o"
+  text="足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。"
+/>
+
+<van-tabs active="{{ active }}">
+  <van-tab title="标签 1">内容 1</van-tab>
+  <van-tab title="标签 2">内容 2</van-tab>
+  <van-tab title="标签 3">内容 3</van-tab>
+  <van-tab title="标签 4">内容 4</van-tab>
+  <van-tab title="标签 5">内容 5</van-tab>
+  <van-tab title="标签 6">内容 6</van-tab>
+</van-tabs>
+</view>
+
+<van-tabbar
+  active="{{ active }}"
+  active-color="#07c160"
+  bind:change="onTabBarChange"
+>
+  <van-tabbar-item icon="home-o">首页</van-tabbar-item>
+  <van-tabbar-item icon="search">活动</van-tabbar-item>
+  <van-tabbar-item icon="friends-o">购物车</van-tabbar-item>
+  <van-tabbar-item icon="setting-o">我的</van-tabbar-item>
+</van-tabbar>
+
+<van-toast id="van-toast" />

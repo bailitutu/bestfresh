@@ -8,3 +8,25 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+view,text{
+  box-sizing: border-box;
+}
+
+
+.bg-white{
+  background-color:#fff;
+}
+.ovh{
+  overflow: hidden;
+}
+
+.hasMargin{
+  margin:10px 0;
+}
+
+.mt-20{
+  margin-top:20px;
+}
+.mt-10{
+  margin-top:10px;
+}

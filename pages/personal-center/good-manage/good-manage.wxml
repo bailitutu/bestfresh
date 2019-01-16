@@ -1,0 +1,15 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="可选">
+  
+  
+  
+  
+  </van-tab>
+  <van-tab title="在售">
+  
+  
+  
+  
+  
+  </van-tab>
+</van-tabs>

@@ -1,0 +1,6 @@
+
+/* pages/main/apply-station/apply-station.wxss */
+
+.hasMargin{
+  margin:10px 12px;
+}

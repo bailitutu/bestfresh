@@ -1,0 +1,31 @@
+<view>
+
+
+
+
+
+
+</view>
+
+<van-submit-bar
+  custom-class='cart_submit'
+  price="{{ 3050 }}"
+  button-text="提交订单"
+  bind:submit="onClickButton"
+>
+  <van-cell border='{{false}}'>
+    <van-checkbox slot='title' value="{{ allSelect }}" bind:change="onSelectALL">全选</van-checkbox>
+  </van-cell>
+</van-submit-bar>
+
+<van-tabbar
+  active="{{ active }}"
+  active-color="#07c160"
+  bind:change="onChange"
+>
+  <van-tabbar-item icon="home-o">标签</van-tabbar-item>
+  <van-tabbar-item icon="search">标签</van-tabbar-item>
+  <van-tabbar-item icon="friends-o">标签</van-tabbar-item>
+  <van-tabbar-item icon="setting-o">标签</van-tabbar-item>
+</van-tabbar>
+

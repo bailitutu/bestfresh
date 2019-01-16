@@ -1,0 +1,157 @@
+
+
+<van-tabs active="{{ active }}" bind:change="onChange"   animated>
+  <van-tab title="全部">
+      
+    <van-panel title="2019-01-23 12：03 ：03"  custom-class='order_cell' status="待提货" use-footer-slot>
+      <van-card
+      custom-class='bg-white'
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ imageURL }}"
+      />
+
+
+      <view slot="footer" style='text-align:right;'>
+        <van-button size="small" style='margin-right:20rpx;'>按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
+    <van-panel title="2019-01-23 12：03 ：03"  custom-class='order_cell' status="待提货" use-footer-slot>
+      <van-card
+      custom-class='bg-white'
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ imageURL }}"
+      />
+
+
+      <view slot="footer" style='text-align:right;'>
+        <van-button size="small" style='margin-right:20rpx;'>按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
+        <van-panel title="2019-01-23 12：03 ：03"  custom-class='order_cell' status="待提货" use-footer-slot>
+      <van-card
+      custom-class='bg-white'
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ imageURL }}"
+      />
+
+
+      <view slot="footer" style='text-align:right;'>
+        <van-button size="small" style='margin-right:20rpx;'>按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
+        <van-panel title="2019-01-23 12：03 ：03"  custom-class='order_cell' status="待提货" use-footer-slot>
+      <van-card
+      custom-class='bg-white'
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ imageURL }}"
+      />
+
+
+      <view slot="footer" style='text-align:right;'>
+        <van-button size="small" style='margin-right:20rpx;'>按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
+        <van-panel title="2019-01-23 12：03 ：03"  custom-class='order_cell' status="待提货" use-footer-slot>
+      <van-card
+      custom-class='bg-white'
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ imageURL }}"
+      />
+
+
+      <view slot="footer" style='text-align:right;'>
+        <van-button size="small" style='margin-right:20rpx;'>按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
+        <van-panel title="2019-01-23 12：03 ：03"  custom-class='order_cell' status="待提货" use-footer-slot>
+      <van-card
+      custom-class='bg-white'
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ imageURL }}"
+      />
+
+
+      <view slot="footer" style='text-align:right;'>
+        <van-button size="small" style='margin-right:20rpx;'>按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
+        <van-panel title="2019-01-23 12：03 ：03"  custom-class='order_cell' status="待提货" use-footer-slot>
+      <van-card
+      custom-class='bg-white'
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ imageURL }}"
+      />
+
+
+      <view slot="footer" style='text-align:right;'>
+        <van-button size="small" style='margin-right:20rpx;'>按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
+        <van-panel title="2019-01-23 12：03 ：03"  custom-class='order_cell' status="待提货" use-footer-slot>
+      <van-card
+      custom-class='bg-white'
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ imageURL }}"
+      />
+
+
+      <view slot="footer" style='text-align:right;'>
+        <van-button size="small" style='margin-right:20rpx;'>按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
+    <van-panel title="2019-01-23 12：03 ：03"  custom-class='order_cell' status="待提货" use-footer-slot>
+      <van-card
+      custom-class='bg-white'
+        num="2"
+        price="2.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="{{ imageURL }}"
+      />
+
+
+      <view slot="footer" style='text-align:right;'>
+        <van-button size="small" style='margin-right:20rpx;'>按钮</van-button>
+        <van-button size="small" type="danger">按钮</van-button>
+      </view>
+    </van-panel>
+  
+  
+  </van-tab>
+  <van-tab title="待提货">内容 2</van-tab>
+  <van-tab title="已完成">内容 3</van-tab>
+  <van-tab title="已取消">内容 4</van-tab>
+</van-tabs>
+

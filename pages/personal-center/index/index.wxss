@@ -1,0 +1,10 @@
+/* pages/personal-center/index/index.wxss */
+
+.grid_item{
+  height:60rpx;
+}
+.grid_item .grid_cell {
+    text-align: center;
+    line-height: 160rpx;
+    height:160rpx;
+}

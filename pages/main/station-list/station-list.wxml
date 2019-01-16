@@ -1,0 +1,11 @@
+
+<van-cell-group>
+  <van-cell  center is-link >
+    <view slot='title'>
+        <view>桑德拉士大夫</view>
+        <view>桑德拉士大夫</view>
+    </view>
+
+  </van-cell>  
+</van-cell-group>
+

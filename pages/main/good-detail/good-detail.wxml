@@ -1,0 +1,129 @@
+<view style='height:100%;width:100%;'>
+    <view class='top-banner'>
+      <swiper  circular='true' indicator-dots='true' autoplay='true' indicator-color="#65C0C7"  indicator-active-color="#1D99A3">
+        <block>
+          <swiper-item   catchtap='bannerHandle' >
+            <view class='slide-image'></view>
+            <!-- <image  src="" class="slide-image" />           -->
+          </swiper-item>
+          <swiper-item   catchtap='bannerHandle' >
+            <!-- <image  src="" class="slide-image" />           -->
+          </swiper-item>
+        </block>
+      </swiper>
+    </view> 
+
+    <van-cell title='评论' size='large' value='1000' is-link>
+
+
+
+    </van-cell>
+      <view >
+          <view>说服力卡是的发是的发</view>
+          <text>水电费卡是的发是的发</text>
+      </view>
+
+    <view style='width:100%;background:orange;padding-bottom:100rpx;overflow:hidden;'>
+
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+    
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大</view>
+        <view>到了发送到发大1231231</view>
+    </view> 
+
+
+</view>
+
+
+
+
+
+
+
+
+
+<van-goods-action>
+  <van-goods-action-icon
+    icon="cart-o"
+    text="首页"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-icon
+    icon="chat-o"
+
+    text="站长"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-button
+    text="加入购物车"
+    type="warning"
+    bind:click="onClickButton"
+  />
+  <van-goods-action-button
+    text="立即购买"
+    bind:click="onClickButton"
+  />
+</van-goods-action>

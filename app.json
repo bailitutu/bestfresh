@@ -1,12 +1,30 @@
 {
-  "pages":[
+  "pages": [
+    "pages/personal-center/order-mine/order-mine",
+    "pages/main/index/index",
+    "pages/personal-center/index/index",
+    "pages/shopping-cart/cart/cart",
+    "pages/shopping-cart/cart-submit/cart-submit",
+    "pages/main/station-list/station-list",
+    "pages/personal-center/send-comment/send-comment",
+    "pages/main/good-detail/good-detail",
+    "pages/personal-center/good-manage/good-manage",
+    "pages/main/station-select/station-select",
+    "pages/main/apply-station/apply-station",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/personal-center/about/about",
+    "pages/personal-center/order-customer/order-customer",
+    "pages/personal-center/check-comment/check-comment",
+    "pages/main/order-submit/order-submit",
+    "pages/main/pay-success/pay-success",
+    "pages/main/apply-protocol/apply-protocol",
+    "pages/activity/activity/activity",
+    "pages/activity/activity-detail/activity-detail"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "green",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }
